@@ -25,12 +25,12 @@ import { getTopCreators } from "../TopCreators/TopCreators";
 import { NFTMarketplaceContext } from "../Context/NFTMarketplaceContext";
 
 const Home = () => {
-  const { checkIfWalletConnected, currentAccount } = useContext(NFTMarketplaceContext);
-
+  const { checkIfWalletConnected, currentAccount } = useContext(
+    NFTMarketplaceContext
+  );
   useEffect(() => {
     checkIfWalletConnected();
   }, []);
-
 
   const { fetchNFTs } = useContext(NFTMarketplaceContext);
   const [nfts, setNfts] = useState([]);
@@ -39,16 +39,17 @@ const Home = () => {
   useEffect(() => {
     if (currentAccount) {
       fetchNFTs().then((items) => {
-      setNfts(items.reverse());
-      setNftsCopy(items);
-    });
-   }
+        setNfts(items.reverse());
+        setNftsCopy(items);
+        console.log(nfts);
+      });
+    }
   }, []);
 
-
   //CREATOR LIST
+
   const creators = getTopCreators(nfts);
-  console.log(creators);
+  // console.log(creators);
 
   return (
     <div className={Style.homePage}>
