@@ -4,7 +4,9 @@ It is quite clear that blockchain technology and NFTs can offer the perfect
 opportunity for artists and content creators to obtain financial remuneration for their 
 works. Now, artists don’t have to depend anymore on auction houses or galleries for 
 selling their artwork. On the contrary, an artist could just sell their work to a buyer 
-in the form of NFT. The marketplace allows people to buy sell and trade NFT art. If 
+in the form of NFT. The marketplace allows people to buy sell and trade NFT art. Potential
+buyers  can  look  up  through  the  NFT  Marketplace  for  the  NFTs  they  desire  and  
+can  easily  place  a  bid  on  them  or  buy  them. If 
 you seek an industry that functions as a massive revenue stream for talented people 
 like composers and artists, then NFT marketplace development can be the perfect 
 match. NFTs’ integration of augmented reality and virtual reality is an innovation to 
