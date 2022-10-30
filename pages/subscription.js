@@ -1,3 +1,4 @@
+// Subscription Page
 import React from "react";
 
 //INTERNAL IMPORT
