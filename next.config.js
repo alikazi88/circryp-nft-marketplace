@@ -3,8 +3,11 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["enft.infura-ipfs.io", "infura-ipfs.io"],
+    domains: [
+      "infura-ipfs.io",
+      "enft.infura-ipfs.io"
+      ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
