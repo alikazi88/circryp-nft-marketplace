@@ -1,13 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-  swcMinify: true,
   images: {
-    domains: [
-      "infura-ipfs.io",
-      "enft.infura-ipfs.io"
-      ],
+    domains: ["enft.infura-ipfs.io"],
+    formats: ["image/webp"],
   },
 };
-
-module.exports = nextConfig;
